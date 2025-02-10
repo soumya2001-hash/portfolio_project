@@ -15,7 +15,7 @@ export const PROJECTS = [
     description:
       "VitalCare is a web application designed to simplify healthcare management and enhance patient care.",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Appwrite", "Twilio"],
-    link:"https://vitalcarevc.netlify.app/"
+    link:"https://vitalcare-updated.vercel.app/"
   },
   {
     title: "PixelAI - Image generation webapp ",
