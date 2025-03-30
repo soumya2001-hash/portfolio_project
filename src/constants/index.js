@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
+import project5 from '../assets/projects/project5.png';
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With hands-on experience on multiple real-world projects, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -9,6 +10,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 
 export const PROJECTS = [
+  {
+    title: "EStock - An inventory management system",
+    image: project5,
+    description:
+      "EStock is a web-based application designed to help businesses efficiently track and manage their stock.",
+    technologies: ["NextJS", "Tailwind CSS", "TypeScript", "AWS EC2", "AWS RDS", "AWS Amplify", "AWS VPC"],
+    link:"https://main.d14iemq9ng4yge.amplifyapp.com/dashboard"
+  },
   {
     title: "VitalCare - A healthcare webapp",
     image: project1,

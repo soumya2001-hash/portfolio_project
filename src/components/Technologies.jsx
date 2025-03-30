@@ -4,7 +4,9 @@ import { TbBrandNextjs } from 'react-icons/tb';
 import { SiMongodb } from 'react-icons/si';
 import { DiRedis } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
+import { SiAmazonec2 } from "react-icons/si"; 
 import { BiLogoPostgresql } from 'react-icons/bi';
+import { SiAmazonrds } from "react-icons/si";
 import { motion } from "motion/react";
 
 const iconVarients = (duration) => (
@@ -54,7 +56,7 @@ const Technologies = () => {
             initial='initial'
             animate='animate'
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiMongodb className='text-7xl text-green-500'/>
+                <SiMongodb className='text-7xl text-green-500 '/>
             </motion.div>
             <motion.div 
             variants={iconVarients(7)}
@@ -77,7 +79,20 @@ const Technologies = () => {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <BiLogoPostgresql className='text-7xl text-sky-700'/>
             </motion.div>
-            
+            <motion.div 
+            variants={iconVarients(1)}
+            initial='initial'
+            animate='animate'
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiAmazonec2 className='text-7xl text-pink-400'/>
+            </motion.div>
+            <motion.div 
+            variants={iconVarients(9)}
+            initial='initial'
+            animate='animate'
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiAmazonrds className='text-7xl text-yellow-500' />
+            </motion.div>
         </motion.div>
     </div>
   )
